@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Details</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 25px;
+}
+th{
+    color: #04b71c;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+h1{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(104, 15, 187);
+    font-size: 30px;
+}
+#back{
+    margin-top: 20px;
+    width: 100px;
+    padding: 8px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <button id="back" onclick="goback()">Back</button>
+
+    <div class="container">
+        <h1>Madyaveedi Chanda</h1>
+
+        <table id="detailsTable">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Money</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Entries will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="details.js"></script>
+</body>
+</html>
